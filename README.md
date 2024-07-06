@@ -5,7 +5,7 @@
 
 ## Setup
 - NOTE: The Aruco Detection provided by OpenCV under its object detection (`objdetect`) module has seen a change in API since OpenCV version 4.7.0. This repo uses a local installation of OpenCV 4.10.0 since the version of OpenCV provided by the `apt` loaded mirrors is version 4.2 (so if you compile the c++ )
-- NOTE: Due to the above described reasons and the presence of conflicting libraries, the required `cv_bridge` module (and its parent package `vision_opencv`) have been used as a local installation in the workspace. The main python script `aruco_detect.py` can be found in the `opencv_tests/nodes` folder in the `vision_opencv` directory.
+- NOTE: Due to the above described reasons and the presence of conflicting libraries, the required `cv_bridge` module (and its parent package [vision_opencv](https://github.com/ros-perception/vision_opencv) have been used as a local installation in the workspace. The main python script `aruco_detect.py` can be found in the `opencv_tests/nodes` folder in the `vision_opencv` directory.
 
 - Install `opencv-contrib-python` (preferably via pip) and uninstall `opencv-python` before to avoid conflicts
 
